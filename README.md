@@ -157,7 +157,7 @@ The Deep-Thinking RAG system features a beautiful, modern Streamlit interface wi
 
 **Streamlit UI Overview**
 
-![Deep-Thinking RAG Interface](images/ui-overview.png)
+![Deep-Thinking RAG Interface](images/Screenshot%20(1195).png)
 
 *The main interface showing document upload, settings configuration, and real-time research progress*
 
@@ -186,7 +186,7 @@ The Deep-Thinking RAG system features a beautiful, modern Streamlit interface wi
 
 **Live Research Tracking**
 
-![Research Progress](images/research-progress.png)
+![Research Progress](images/Screenshot%20(1199).png)
 
 *The system displays research plan creation, step completion, and intermediate results*
 
@@ -203,7 +203,7 @@ The Deep-Thinking RAG system features a beautiful, modern Streamlit interface wi
 
 **Comprehensive Answer with Citations**
 
-![Final Answer](images/final-answer.png)
+![Final Answer](images/Screenshot%20(1200).png)
 
 *The system provides detailed answers with proper source citations and reference links*
 
@@ -221,7 +221,7 @@ The Deep-Thinking RAG system features a beautiful, modern Streamlit interface wi
 
 **Detailed Research Steps**
 
-![Research History](images/research-history.png)
+![Research History](images/Screenshot%20(1201).png)
 
 *Complete visibility into the multi-step reasoning process with summaries*
 
@@ -299,7 +299,7 @@ Edit `config/config.py` or use environment variables:
 
 ```python
 # LLM Settings
-REASONING_LLM = "llama-3.1-8b-instant"   # For complex reasoning
+REASONING_LLM = "llama-3.3-70b-versatile"   # For complex reasoning
 FAST_LLM = "llama-3.1-8b-instant"        # For simple tasks
 EMBEDDING_MODEL = "all-MiniLM-L6-v2"     # Free local embeddings
 
