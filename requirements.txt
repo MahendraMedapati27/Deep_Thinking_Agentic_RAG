@@ -1,0 +1,36 @@
+# Core LangChain
+langchain>=0.3.0
+langchain-groq>=0.2.0
+langchain-community>=0.3.0
+langgraph>=0.2.0
+
+# Vector Store & Embeddings
+chromadb>=0.4.0
+sentence-transformers>=2.0.0
+
+# Search & Retrieval
+rank-bm25
+tavily-python
+langchain-tavily
+
+# Web Scraping
+beautifulsoup4
+requests 
+
+# Streamlit UI
+streamlit
+
+# Evaluation (optional - can skip if you don't need)
+# ragas
+# datasets
+
+# Utilities
+python-dotenv
+pandas
+numpy
+
+# Logging
+loguru
+
+# Additional dependencies
+pydantic>=2.0.0

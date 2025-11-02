@@ -1,0 +1,45 @@
+name: deep-thinking-rag
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+    # Core LangChain
+    - langchain==0.1.0
+    - langchain-groq==0.0.2
+    - langchain-community==0.0.10
+    - langgraph==0.0.20
+    
+    # Vector Store & Embeddings
+    - chromadb==0.4.22
+    - sentence-transformers==2.2.2
+    
+    # Search & Retrieval
+    - rank-bm25==0.2.2
+    - tavily-python==0.3.0
+    
+    # Web Scraping
+    - beautifulsoup4==4.12.2
+    - requests==2.31.0
+    
+    # Streamlit UI
+    - streamlit==1.29.0
+    
+    # Evaluation
+    - ragas==0.1.0
+    - datasets==2.16.0
+    
+    # Utilities
+    - python-dotenv==1.0.0
+    - pandas==2.1.4
+    - numpy==1.26.2
+    
+    # Logging
+    - loguru==0.7.2
+    
+    # Additional dependencies
+    - pydantic==2.5.0
+    - tiktoken==0.5.2
+
